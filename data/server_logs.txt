@@ -1,0 +1,21 @@
+2025-04-01 08:15:23 INFO  Server started successfully
+2025-04-01 08:30:45 DEBUG Connection pool initialized with 10 connections
+2025-04-01 09:12:37 INFO  User login: user123 from 192.168.1.45
+2025-04-01 09:45:12 DEBUG Query executed in 120ms: SELECT * FROM users WHERE active=1
+2025-04-01 10:23:56 ERROR Database connection timeout after 30s
+2025-04-01 10:24:01 WARN  Retrying database connection (attempt 1)
+2025-04-01 10:24:06 INFO  Database connection established
+2025-04-01 11:05:34 DEBUG Cache hit ratio: 78.5%
+2025-04-01 11:30:22 INFO  User login: admin from 192.168.1.10
+2025-04-01 12:15:45 DEBUG Memory usage: 2.4GB/8GB
+2025-04-01 13:20:11 ERROR Failed to process transaction #45982: Insufficient funds
+2025-04-01 13:20:15 WARN  Transaction rollback initiated
+2025-04-01 14:05:30 INFO  Scheduled backup started
+2025-04-01 14:35:45 INFO  Backup completed successfully, size: 1.2GB
+2025-04-01 15:10:23 DEBUG Query executed in 350ms: SELECT * FROM transactions WHERE date > '2025-03-01'
+2025-04-01 15:45:12 ERROR API request failed: 404 Not Found for /api/v2/reports
+2025-04-01 16:00:05 WARN  High CPU usage detected: 92%
+2025-04-01 16:30:45 INFO  User logout: user123
+2025-04-01 17:15:22 DEBUG Memory usage: 3.1GB/8GB
+2025-04-01 18:00:01 INFO  Server shutdown initiated
+2025-04-01 18:00:15 INFO  Server stopped successfully
